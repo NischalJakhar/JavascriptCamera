@@ -30,8 +30,8 @@ function initializeMedia() {
 
 
     if(front===false){
-        constraints = { video: {facingMode:  "environment",width: 1260,
-            height: 652 } };
+        constraints = { video: {facingMode: "environment", width: { min: 320, ideal: window.screen.availWidth, max: 1920 },
+            height: { min: 568, ideal: window.screen.availHeight, max: 1080 } }} ;
         console.log("Running rear camera");
     }
     else{
