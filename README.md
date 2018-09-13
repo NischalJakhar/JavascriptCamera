@@ -1,2 +1,3 @@
 # JavascriptCamera
-Camera via js
+
+Take a look at the code and suggest some fixes.
