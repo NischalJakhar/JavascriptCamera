@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Title</title>
+<style>
+    body{
+        margin:0;
+    }
+    #camera{
+        height: 80px;
+    }
+    #videoContainer {
+        box-sizing: border-box;
+        height: 100vh;
+        overflow: hidden;
+        width: 100vw;
+
+    }
+
+
+</style>
+</head>
+<body>
+<div id="containerCamera">
+
+        <div id="videoContainer">
+            <video id="player" autoplay=""></video>
+        </div>
+
+        <img id="camera" src="img/camera.svg" onclick="capture();">
+
+</div>
+
+<section id="page1">
+    <canvas class="raised" id="canvas" style="display:none"></canvas>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
